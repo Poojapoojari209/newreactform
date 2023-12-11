@@ -1,0 +1,120 @@
+
+  .form-container {
+    padding: 10px;
+    display: flex;
+    flex: 2; 
+    margin-right: 20px; 
+    margin-left:50px ;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    max-height: auto;
+  }
+  
+  .container {
+    margin-left: 30px;
+    height: auto;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  .Emp-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .form-field {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+   
+  }
+
+  /* .success {
+    font-family: "Roboto", sans-serif;
+    background-color: #3f89f8;
+    padding: 15px;
+    color: white;
+  }
+   */
+  input {
+    background: #f2f2f2;
+
+   
+  }
+
+  select{
+    
+      background: #f2f2f2;
+    }
+    option{
+      background-color: white;
+    }
+    .Gender{
+      margin-left: 10px;
+
+      }
+      #Male{
+        margin-top: 10px;
+        margin-left: 60px;
+      }
+      #Female{
+        
+        margin-left: 40px;
+      }
+    
+    
+  .error {
+    color: rgb(247, 90, 90);
+   font-size: small;
+  }
+  
+
+  button {
+    background: #6d67ef;
+    color: white;
+  }
+  
+  button:disabled {
+    cursor: default;
+  }
+
+  table{
+    border: 2px solid black;
+    margin-left: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    max-height: 100px; 
+    overflow-y: auto;
+   
+    
+    
+  }
+  
+  th {
+    
+    border: 2px solid #f4efef;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  td {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .edit-btn{
+    margin-right: 20px;
+
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  
+
+  
